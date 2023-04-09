@@ -9,6 +9,9 @@ class Student:
     def __len__(self):
         return self.height
 
+    def grow(self, height=1):
+        self.height += height
+
 
 nick = Student(name='Nick')
 kate = Student(name='Kate')
